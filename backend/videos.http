@@ -1,0 +1,12 @@
+//test api
+@api= http://localhost:5000
+
+GET {{api}}/
+
+###
+POST {{api}}/
+###
+PUT {{api}}/1
+
+###
+DELETE {{api}}/1
